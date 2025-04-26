@@ -1,4 +1,5 @@
 package ru.maxima.user.api;
 
-public class UserApi {
+public interface UserApi {
+    UserDto getUserById(Long id);
 }
